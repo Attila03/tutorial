@@ -7,7 +7,6 @@ const serverCb = (req, res) => {
         return;
     }
 
-
     if (req.url === '/about') {
         res.end("History of the org");
         return;
@@ -15,8 +14,6 @@ const serverCb = (req, res) => {
 
     res.end(`<h1>Cant find page</h1>`)
     return;
-    
-
 }
 
 
